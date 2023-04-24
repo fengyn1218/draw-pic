@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T08:40:11.524Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="TfOjMwVLwA_GWIECeWIb" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T12:14:11.643Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gucz21xJYO6dm4f-tftB" version="21.1.8" type="github">
   <diagram name="第 1 页" id="D1CQOp292lNtNwlwD0Dh">
     <mxGraphModel dx="1306" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -339,11 +339,58 @@
         <mxCell id="OTEw4OgLr6QhDQMsbYtA-19" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1020" y="1780" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-20" target="OTEw4OgLr6QhDQMsbYtA-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OTEw4OgLr6QhDQMsbYtA-20" value="获取过滤好友列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1280" y="1710" width="114.05" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OTEw4OgLr6QhDQMsbYtA-26" value="注入在线数&amp;amp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="1715" width="114.05" height="50" as="geometry" />
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-26" target="OTEw4OgLr6QhDQMsbYtA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-26" value="注入在线数&lt;br&gt;&amp;amp;快币数&lt;br&gt;&amp;amp;地区&lt;br&gt;&amp;amp;空闲状态&lt;br&gt;&amp;amp;预约状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1697.5" width="114.05" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-28" target="OTEw4OgLr6QhDQMsbYtA-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-28" value="应用电商规则" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1850" width="114.05" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-30" target="OTEw4OgLr6QhDQMsbYtA-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-30" value="根据reco好友列表排序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1850" width="114.05" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-32" target="OTEw4OgLr6QhDQMsbYtA-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-32" value="政策排序&lt;br&gt;&amp;amp;状态替换" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="882.98" y="1850" width="114.05" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-34" target="OTEw4OgLr6QhDQMsbYtA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-34" value="并行邀请置顶" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="675.95" y="1850" width="114.05" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-35" target="OTEw4OgLr6QhDQMsbYtA-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-35" value="注入ExtraInfo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="475.95" y="1850" width="114.05" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-36" value="注入弹窗&lt;br&gt;（又是电商规则？）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300.00000000000006" y="1850" width="114.05" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-47" value="返回数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1880" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
