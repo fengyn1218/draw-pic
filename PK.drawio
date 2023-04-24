@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T09:00:27.041Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2jvfUP3XTUwVyzGsOJkU" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T08:40:11.524Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="TfOjMwVLwA_GWIECeWIb" version="21.1.8" type="github">
   <diagram name="第 1 页" id="D1CQOp292lNtNwlwD0Dh">
     <mxGraphModel dx="1306" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -276,8 +276,74 @@
         <mxCell id="nzKU1kesUL4rAlOl88Yz-117" value="START状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1219.95" y="400" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OTEw4OgLr6QhDQMsbYtA-1" value="邀请链路主流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="75" y="78" width="110" height="30" as="geometry" />
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;邀请链路主流程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-2" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;好友列表&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1573" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-3" target="OTEw4OgLr6QhDQMsbYtA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-3" value="主播" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="159.95" y="1710" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-4" target="OTEw4OgLr6QhDQMsbYtA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-4" value="/liveFriends接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1715" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-6" target="OTEw4OgLr6QhDQMsbYtA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-6" value="开关 &amp;amp; 新老版本校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1715" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-8" target="OTEw4OgLr6QhDQMsbYtA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-8" value="获取真实好友列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="675.95" y="1715" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-10" target="OTEw4OgLr6QhDQMsbYtA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-10" value="relationInternalService" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="675.95" y="1610" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-12" target="OTEw4OgLr6QhDQMsbYtA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-12" target="OTEw4OgLr6QhDQMsbYtA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-12" value="isSuperAuthority?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1692.5" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-14" target="OTEw4OgLr6QhDQMsbYtA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-14" value="执行过滤&lt;br&gt;SUPER_USER_LIST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1663" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-16" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1670" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTEw4OgLr6QhDQMsbYtA-17" target="OTEw4OgLr6QhDQMsbYtA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-17" value="执行过滤&lt;br&gt;FRIEND_LIST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1750" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-19" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1780" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-20" value="获取过滤好友列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1710" width="114.05" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OTEw4OgLr6QhDQMsbYtA-26" value="注入在线数&amp;amp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1715" width="114.05" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
