@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T10:50:03.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="JnfmwuzgGFR1txMWVg2b" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T11:45:13.731Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ufyIQlU6VpX175q60zXS" version="21.7.5" type="github">
   <diagram name="第 1 页" id="zgr502I-thZL9eDrCSQo">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zJy86OhnqWDiOwuOmrXa-1" target="zJy86OhnqWDiOwuOmrXa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-1" value="根据活动ID查券列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-2" value="直播间发券" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zJy86OhnqWDiOwuOmrXa-3" target="zJy86OhnqWDiOwuOmrXa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-3" value="是否是同一直播ID？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zJy86OhnqWDiOwuOmrXa-4" target="zJy86OhnqWDiOwuOmrXa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-4" value="是否在线状态？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zJy86OhnqWDiOwuOmrXa-7" target="zJy86OhnqWDiOwuOmrXa-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-7" value="风控通过？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="770" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zJy86OhnqWDiOwuOmrXa-9" target="zJy86OhnqWDiOwuOmrXa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-9" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zJy86OhnqWDiOwuOmrXa-11" target="zJy86OhnqWDiOwuOmrXa-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-11" value="发券" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="795" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zJy86OhnqWDiOwuOmrXa-12" target="zJy86OhnqWDiOwuOmrXa-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-12" value="获取券的配置信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zJy86OhnqWDiOwuOmrXa-15" target="zJy86OhnqWDiOwuOmrXa-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-15" value="领取券的信息写到Redis里" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="345" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJy86OhnqWDiOwuOmrXa-16" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="375" y="545" width="60" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
