@@ -1,9 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T02:08:12.581Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="22.1.20" etag="ZcmRdzYvwUBQZ8d0yGlI" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T02:19:15.349Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1aTTAlJnRv8QdbM4N6vS" version="22.1.20" type="github">
   <diagram name="第 1 页" id="FI-wD5YfRy_zqxNueUI1">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-1" value="充值提效" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-2" value="礼物生态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-3" value="营收榜单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-4" value="用户权益" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="660" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-5" value="投资性付费" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="830" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-6" value="红包玩法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-7" value="小玩法开放平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-8" value="营收活动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-9" value="充值引导" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-10" value="充返能力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-11" value="礼物视效" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-12" value="送礼链路" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-13" value="礼物玩法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-14" value="礼物成就" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="620" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-15" value="观众榜" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-16" value="小时榜" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-17" value="用户成就体系" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-18" value="特权维护" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-19" value="权益中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-20" value="虚拟货币" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="620" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-21" value="投资引流" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="830" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-22" value="投资涨粉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="830" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-23" value="条件红包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-24" value="秒杀红包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-25" value="抽奖红包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-26" value="红包雨" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="620" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-27" value="弹幕玩法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-28" value="派对玩法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-29" value="互动工具" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-30" value="活动玩法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-31" value="活动组件&amp;amp;后台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6TCpgGWpYNu3UBGTI9-32" value="活动奖励" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
